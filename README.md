@@ -57,5 +57,5 @@ node app.js create --help
 Ligne de commande qui permet de lancer la generation d'un fichier JSON depuis un fichier CSV : 
 
 ````
-node app.js create -i './mocks/translate_en_to_fr.csv' -o './mocks/data.json' -s 4
+node app.js create -i './mocks/translate_en_to_fr.csv' -o './mocks/data.json' -s 4  -l fr:53 en:75
 ````
