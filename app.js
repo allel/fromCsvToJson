@@ -77,14 +77,12 @@ if (command === 'create') {
 
                 _.forEach(argv.langues, function eachLang(l) {
                     var split = l.split(':');
-                    switch (data[2]) {
-                        case split[1]:
-                            extend(true, traduction[split[0]], transform(data[0], data[1]));
-                            break;
+                    if (data[2] === split[1]) {
+                        extend(true, traduction[split[0]], transform(data[0], data[1]));
                     }
                 });
             } catch (e) {
-                console.log('Erreur de transformation ' + e.message);
+                console.error('Erreur de transformation ' + e.message);
             }
         })
         .on('end', function () {
