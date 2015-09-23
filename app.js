@@ -66,7 +66,7 @@ var argv = require('yargs')
 var command = argv._[0];
 
 if (command === 'create') {
-    var langarray = argv.langues ? argv.langues : ["en:53", "fr:75", "cn:37", "nl:50", "nl-BE:51", "nl-NL:52", "en-US:65", "it:106", "de-DE:88", "es:156", "pt:139"];
+    var langarray = argv.langues ? argv.langues : ["en:53", "fr:75", "de:86", "es:156", "cn:37"];
     var traduction = initLangObj(langarray);
 
     csv
