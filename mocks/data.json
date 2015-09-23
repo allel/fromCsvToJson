@@ -1,5 +1,5 @@
 {
-    "fr": {
+    "en": {
         "global": {
             "loading": "Chargement",
             "yes": "Oui",
@@ -634,15 +634,23 @@
             }
         }
     },
-    "en": {
+    "fr": {
         "global": {
             "loading": "Loading",
             "yes": "Yes"
         }
     },
+    "cn": {},
+    "nl": {},
+    "nl-BE": {},
+    "nl-NL": {},
+    "en-US": {},
     "it": {
         "global": {
             "loading": "Caricamento"
         }
-    }
+    },
+    "de-DE": {},
+    "es": {},
+    "pt": {}
 }

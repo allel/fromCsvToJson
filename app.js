@@ -53,7 +53,7 @@ var argv = require('yargs')
                 description: 'Spaces of json path'
             },
             langues: {
-                demand: true,
+                demand: false,
                 alias: 'l',
                 type: 'array',
                 description: 'Liste des langues sous la forme suivante : fr:53 en:75 es:35 ...'
@@ -66,7 +66,9 @@ var argv = require('yargs')
 var command = argv._[0];
 
 if (command === 'create') {
-    var traduction = initLangObj(argv.langues);
+    var langarray = argv.langues ? argv.langues : ["en:53", "fr:75", "cn:37", "nl:50", "nl-BE:51", "nl-NL:52", "en-US:65", "it:106", "de-DE:88", "es:156", "pt:139"];
+    var traduction = initLangObj(langarray);
+
     csv
         .fromPath(argv.input)
         .on('data', function (data) {
@@ -75,7 +77,7 @@ if (command === 'create') {
                     throw new Error('Erreur sur le fichier csv');
                 }
 
-                _.forEach(argv.langues, function eachLang(l) {
+                _.forEach(langarray, function eachLang(l) {
                     var split = l.split(':');
                     if (data[2] === split[1]) {
                         extend(true, traduction[split[0]], transform(data[0], data[1]));
