@@ -1,0 +1,635 @@
+{
+  "global": {
+    "loading": "Chargement",
+    "yes": "Oui",
+    "no": "Non",
+    "help": "Aide",
+    "button": {
+      "export": {
+        "csv": "Exporter en csv"
+      }
+    },
+    "search": {
+      "no_results": "Aucun résultat trouvé"
+    },
+    "error": {
+      "field": {
+        "mismatch": "Mots de passe non correspondant"
+      },
+      "title": "L'application a rencontré une erreur imprévue.",
+      "text": "Notre personnel technique vont traiter la demande dans les plus bref délais"
+    },
+    "notFound": {
+      "path": {
+        "first": "Oups ! Le chemin",
+        "second": " n'a pas été trouvé."
+      },
+      "redirect": {
+        "first": "Vous pouvez",
+        "second": " ou ",
+        "third": " sinon.",
+        "back": " revenir en arrière",
+        "home": "sur la page d'acceuil"
+      }
+    },
+    "form": {
+      "mandatory": "Champs obligatoires",
+      "add": "Ajouter",
+      "update": "Mettre à jour",
+      "delete": "Supprimer",
+      "placeholder": {
+        "default": {
+          "text": "Remplir avec du texte"
+        }
+      }
+    },
+    "helper": {
+      "fullName": "{{ user ? user.first_name +' '+ user.last_name : ''}}",
+      "fullNameWithId": "{{ user ? user.first_name +' '+ user.last_name + ' (' + user.user_id + ')' : ''}}"
+    }
+  },
+  "core": {
+    "general": {
+      "continue": "Continuer",
+      "previous": "Précédent",
+      "end": "Fin",
+      "total": "Total",
+      "label": {
+        "email": "E-mail"
+      },
+      "no_network": "Erreur réseau: Erreur lors de la demande aux services IT Portal.",
+      "page404": {
+        "title": "404",
+        "description": "La page que vous cherchez n'a pu être trouvée.",
+        "link_back": "Revenir à la page précédente",
+        "link_home": "Revenir à la page d'accueil"
+      },
+      "errors": {
+        "userDetails": "Erreur réseau: Impossible de récupérer les informations de l'utilisateur.",
+        "yammer": "Erreur réseau: Vous n'avez pas les certificats pour récupérer les articles Yammer.",
+        "translations": "Erreur réseau: Vous n'avez pas les certificats pour récupérer les traductions.",
+        "ie8certificates": "Erreur réseau: ServerXMLHTTP requiert un certificat numérique client installé.",
+        "crossorigin": "Erreur réseau: Impossible de traiter les requêtes d'origines croisées.",
+        "authentication": "Erreur réseau: Impossible de retrouver l'authentification.",
+        "ge": "Erreur réseau: Erreur lors de demande aux services GE."
+      }
+    },
+    "search": {
+      "labelFilter": "Filtrer par",
+      "labelFilterWithValue": "Filtrer avec le(s) critère(s) {{ value }}",
+      "allFilter": "Tout Sélectionner",
+      "noneFilter": "Tout Désélectionner",
+      "reset": "Réinitialiser la récherche",
+      "history": {
+        "title": "Historique",
+        "clear_all": "Tout effacer"
+      }
+    },
+    "carousel": {
+      "see_this_section": "Voir cette section"
+    },
+    "title_video": "Présentation My IT Portal"
+  },
+  "sso_portal": {
+    "sso_wserror_wiseguard_error": "Vous devez vous authentifier par SmartCard SESAM ou par OTP",
+    "select_all": "Tout Sélectionner",
+    "select_none": "Tout Désélectionner",
+    "no_result": "Aucune application trouvée pour le critère {{ criteria }}",
+    "name": "Single Sign-On Portal ({{ length }} applications)",
+    "pagination": "{{ total }} Applications - Page {{ current_page }} / {{nb_pages}}",
+    "presentation": "Cette interface vous permet de renseigner les informations de connexion (login, mot de passe) pour toutes vos applications dans SSO. Vous pouvez aussi modifier à n'importe quel moment le mot de passe d'une application si celui-ci a été changé et n'a pas été mis à jour dans SSO.",
+    "no_account": "Aucun compte trouvé",
+    "login": "Login: ",
+    "create_account": "Créer un compte",
+    "change_password": "Changer le mot de passe",
+    "register": "Enregister votre compte",
+    "filter": "Filtres",
+    "filters": {
+      "alstom": "Alstom",
+      "grid": "Grid",
+      "it": "ITSSC",
+      "renwable": "Energie Renouvelable",
+      "thermal": "Energie Thermique",
+      "transport": "Transport"
+    },
+    "user_login": "Login",
+    "enter_login": "Entrer un login",
+    "password": "Mot de passe",
+    "re_password": "Confirmez votre mot de passe",
+    "policy": "Politique de mot de passe",
+    "edit": "Modifiez votre compte"
+  },
+  "accounts": {
+    "welcome": "Bienvenue dans My Accounts!",
+    "menu": {
+      "my_profile": "My Profile",
+      "my_team": "My Team",
+      "my_sso": "SSO Portal",
+      "mobile": "MobileApp"
+    },
+    "home": {
+      "news": {
+        "name": "Quoi de neuf ?"
+      },
+      "tips": {
+        "name": "Astuces"
+      }
+    },
+    "organisation": {
+      "show_more_subordinates": "Afficher plus de collaborateurs de l'équipe de {{ name }}",
+      "mail": "Mail {{ name }}",
+      "call": "Appeler {{ name }}",
+      "see_hierarchy": "Voir la hiérarchie de {{ name }}",
+      "chat_with": "Communiquer avec {{ name }}",
+      "alstom_id": "Alstom ID",
+      "ge_id": "GE ID",
+      "email": "E-mail",
+      "business_unit": "Business Unit",
+      "cost_center": "Cost Center",
+      "teranga_unit": "Teranga Unit",
+      "office_floor": "Etage",
+      "office": "Bureau",
+      "mobile": "Mobile",
+      "employee_types": {
+        "internal": "Interne",
+        "contractor": "Consultant"
+      }
+    },
+    "mobile": {
+      "devices": {
+        "title": "Mon application mobile",
+        "new_device": "Nouvel appareil",
+        "pairing_token": "Appairer",
+        "pairing_token_placeholder": "",
+        "submit": "Valider",
+        "delete_confirm": "Etes-vous sûr?",
+        "serial_number": "Numéro de Série"
+      }
+    },
+    "accounts": {
+      "no_account": "Aucun compte",
+      "enabled_accounts": "Comptes activés",
+      "activable_accounts": "Comptes activables",
+      "disabled_accounts": "Comptes désactivés",
+      "request_access_to": "Demander l'accès au compte {{ account }}",
+      "change_password_ok": "Votre mot de passe a bien été changé.",
+      "change_password": "Changer le mot de passe",
+      "change_questions": "Changer les questions secrètes",
+      "change_questions_ok": "Vos questions ont bien été changées.",
+      "related_apps": "Applications associées",
+      "enabled": "Activé",
+      "information": "Détails du compte",
+      "request": {
+        "choose": "Application",
+        "password": "Mot de passe",
+        "questions": "Questions secrètes",
+        "finish": "Demande d'accès",
+        "success": "Votre compte a été demandé."
+      },
+      "not_compliant": "Votre mot de passe ne respecte pas la politique de mot de passe.",
+      "compliant": "Votre mot de passe respecte la politique de mot de passe.",
+      "not_confirmed": "Votre mot de passe n'est pas confirmé.",
+      "confirmed": "Votre mot de passe est confirmé",
+      "password": "Mot de passe",
+      "old_password": "Ancien mot de passe",
+      "new_password": "Nouveau mot de passe",
+      "password_confirm": "Veuillez confirmer",
+      "secret_question_n": "Question secrète {{ n }}",
+      "policy": {
+        "length_8_15": "Doit être comosé entre 8 et 15 caractères",
+        "two_lowercase_letters": "Doit contenir au moins deux minuscules",
+        "two_digits": "Doit contenir au moins deux chiffres",
+        "begin_end_letter": "Doit commencer et terminer par une lettre",
+        "ge_sso_id": "Ne doit pas contenir votre identifiant GE SSO",
+        "questions": "Vous devez sélectionner et répondre à {{ nb }} questions"
+      },
+      "ge": {
+        "sso_i": "GE SSO ID"
+      },
+      "alstom": {
+        "id": "Alstom ID"
+      }
+    },
+    "partners": {
+      "mft": "MFT",
+      "email": "Email",
+      "firm": "Nom d'entreprise",
+      "expiration_date": "Date d'expiration",
+      "desactivate": "Désactiver",
+      "activate": "Activer",
+      "add": {
+        "confirm": "Ajouter ce partenaire"
+      },
+      "inactive": "Inactif",
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "edit": {
+        "confirm": "Enregistrer les changements"
+      },
+      "msgemail": "Adresse email invalide",
+      "no_partners": "Vous n'avez pas de compte MFT.",
+      "no_mft_account": {
+        "title": "Vous n'avez aucun compte Managed File Transfer",
+        "description": "Soit votre demande pour un compte Managed File Transfer n'est pas encore synchronisé soit vous n'avez pas encore demandé de compte.<br />Si vous avez déjà demandé un compte Managed File Transfer, il peut ne pas être synchronisé.<br />Si vous n'avez pas demandé de compte Managed File Transfer, allez dans 'Ajouter une applicaion' dans l'onglet My Accounts and sélectionnez Managed File Transfer."
+      }
+    }
+  },
+  "support": {
+    "title_home": "Bienvenue dans My Support",
+    "menu": {
+      "myServiceDesk": "My Service Desk",
+      "myAlstomWorld": "My Alstom World",
+      "survey": "Sondage de satisfaction"
+    },
+    "my_alstom_world": {
+      "name": "My Alstom World",
+      "presentation": "Retrouver <strong>toutes les informations de votre site</strong> parmi les 1200 sites Alstom: emplacement de l'IT KIOSK, statut du service BYOD, Téléprésence et Salles de Vidéoconférences…",
+      "error": "Désolé... Erreur avec l'information du site.",
+      "title": "Découverte des services sur votre site",
+      "default_content": "Vous pouvez trouvez, dans cet outil, les informations de plus de 1200 sites concernant : IT KIOSK, Wifi, téléprésence et services de vidéoconférences et bien plus.<br /><br /> Vous pouvez cherchez un site à partir de la barre de recherche ou en cliquant sur la carte intéractive à droite.",
+      "content_tpvc": "Pour réserver votre téléprésence ou votre salle de vidéconférence, suivez les indications <a ui-sref='al.mySupport.myItLearning.show({idSolution:50001})'>ici</a> ou appelez le service au +33 1 70 48 03 68, 24h/24 7j/7.",
+      "content_it_kiosk": "Veuillez trouver ci-dessous les informations de votre IT KIOSK:",
+      "content_support": "Veuillez trouvez ci-dessous votre contact au Service Desk :",
+      "content_services": "Veuillez trouver ci-dessous les services disponibles sur votre site:",
+      "no_result": "Désolé, aucun résultat trouvé.",
+      "result": "résultats",
+      "too_many_results": "Désolé, vos critères de recheche ont retouné trop de résultats.<br />Veuillez affiner votre recherche soit en sélectionnant un autre filtre soit en exécutant une recherche plus spécifique.",
+      "sc": "SmartCard",
+      "wifi_fs": "Wifi",
+      "see_more": "Voir plus",
+      "tab_title": {
+        "general_info": "Informations",
+        "it_kiosk": "IT Kiosk",
+        "tpvc": "Téléprésence & Vidéo Conférence",
+        "tp": "Téléprésence",
+        "vc": "Vidéo Conférence",
+        "support": "Support",
+        "services": "Services"
+      },
+      "filter_category": {
+        "services": "Tous les services disponibles",
+        "sectors": "Tous les secteurs"
+      },
+      "filters": {
+        "services": {
+          "it_kiosk": "IT Kiosk",
+          "byod": "BYOD",
+          "telepresence": "Téléprésence",
+          "videoconference": "Vidéoconférence",
+          "smartcard": "Smartcard",
+          "site_wifi": "Site Wifi"
+        },
+        "sectors": {
+          "transport": "Transport",
+          "grid": "GRID",
+          "renewable_power": "Energie renouvelable",
+          "thermal_power": "Energie thermique",
+          "corporate": "Corporate"
+        }
+      },
+      "sectors": {
+        "title": "Secteurs"
+      }
+    },
+    "my_service_desk": {
+      "name": "My Service Desk",
+      "presentation": "Obtenir plus d'information à propos du <strong>Service Desk</strong> and accédez à la <strong>liste complète des numéros pour appeler directement votre support IT</strong>.",
+      "select_country": "Veuillez sélectionner votre pays dans la liste.<br /> Si votre pays n'est pas présent dans la liste, choisissez un autre pays.",
+      "title_contact": "My Service Desk Contact",
+      "title_instruction": "IT Incident instructions",
+      "go_chat": "Démarrer la conversation maintenant",
+      "phone_number": "Numéro principal",
+      "alt_number": "Autre numéro",
+      "short_num": "Site - Numéro court",
+      "email": "Email",
+      "default_option_country": "Autre pays",
+      "default_option_site": "Autre site",
+      "content": {
+        "register_incident": "<b>Pour enregistrer un Incident IT:</b><ul><li><span class=\"option\">Option 1:</span> Enregistrer un incident dans ITSM7.<br>Les instructions peuvent être trouvées en suivant les liens : <a href=\"https://teamspace.alstom.com/sites/ISTApplications_Team/ITSM7/IM%20Master%20the%20tool/How%20to%20raise%20an%20Incident%20in%20ITSM7.6%20ENGLISH%20version.pdf\">English</a> ou <a href=\"https://teamspace.alstom.com/sites/ISTApplications_Team/ITSM7/IM%20Master%20the%20tool/How%20to%20raise%20an%20Incident%20in%20ITSM7.6%20FRENCH%20version.pdf\">Français</a>.</li><li><span class=\"option\">Option 2:</span> Contacter votre team EUSS locale.<a href=\"https://teamspace.alstom.com/sites/CoEndUsersSnS_Community/public_area/Public%20Information/EUSS_Country_Managers.xlsx\">Cliquez ici</a> pour voir les personnes EUSS disponibles dans votre pays.</li><li><span class=\"option\">Option 3:</span> Se présenter au Kiosk, si disponible sur le site.</li></ul>",
+        "follow_incident": "<b>Pour suivre l'avancement d'un incident IT:</b><br />Vous pouvez suivre votre incident avec <a href=\"http://itservices.alstom.com/\">l'application Alstom IT Service Management Tool.</a>Se connecter en utilisant votre nom d'utilisateur Alstom et votre mot de passe CAD (Nom d'utilisateur ou mot de passe oublié ? <a href=\"http://itservices.alstom.com/arsys/shared/LoginInfo.jsp\">Cliquez ici</a>). Ensuite:<ol class=\"helpdesklist\"><li>Dans \"Submitted Requests\", cliquez sur \"Open Requests\"</li><li>Sélectionnez une demande dans la liste</li><li>La partie \"Activity Log\" affichée en-dessous du statut de la demande</li></ol>",
+        "country_with_support_info": "Le Servide Desk IS&amp;T est à votre disposition dans votre pays vous souhaitez émettre un incident IT ou si vous souhaitez des coinseils IT.<br />Dans plus de 70%  des cas, le service desk IS&amp;T résoudra votre problème pendant l'appel !<br><hr><u><i>Note:</i></u> Cas des applications s'appuyant sur le modèle du are Key User. Les incidents, dans ce cas, doivent être émis par les personnes qualifiées de Key User pour ces applicaitons. Si vous ne savez pas si le le problème est dû à l'application ou si vous ne connaissez pas le Key User de l'application, vous pouvez contacter le Service Desk et ils vous indiquerons ce que vous devrez faire et qui vous devrez contacter. Pour plus d'informations sur le support par les Key Users, <a href=\"https://online.alstom.com/Tools-Applications/SimplicITy/Documents/Incident%20request_v3.pdf\">cliquez ici</a>.",
+        "country_with_support_register_incident": "<b>Pour enregistrer un incident IT:</b><ol class=\"helpdesklist\"><li>Appelez le numéro de téléphone ci-dessus.</li><li>Sélectionnez l'option que vous pensez la plus appropriée sur le clavier du téléphone (mettre le téléphone en mode Vocal Frequency / DTMF si nécessaire)</li><li>Préparez votre Alstom ID puisque le Service Desk IS&amp;T vous le demandera pour vous identifier.</li></ol>",
+        "country_with_support_register_incident_with_chat": "<b>Pour déclarer un incident IT par messagerie instantannée:</b><ol class=\"helpdesklist\"><li>Cliquez sur &ldquo;Start Chat Now&rdquo; dans le cadre ci-dessous</li><li>Une nouvelle fenêtre s'ouvrira</li><li>Suivez les indications à l'écran</li></ol><b>Pour enregistrer un incident IT par téléphone:</b><ol class=\"helpdesklist\"><li>Appelez le numéro de téléphone ci-dessus.</li><li>Sélectionnez l'option que vous pensez la plus appropriée sur le clavier du téléphone (mettre le téléphone en mode Vocal Frequency / DTMF si nécessaire)</li><li>Préparez votre Alstom ID puisque le Service Desk IS&amp;T vous le demandera pour vous identifier.</li></ol>"
+      },
+      "my_it_learning": {
+        "link": "Allez dans My IT Learning"
+      },
+      "chat": {
+        "content": "Si vous avez besoin d'assistance supplémentaire, cliquez ici pour joindre une personne de My Service Desk et communiquer avec lui <strong>resolve your issue on-line.</strong>",
+        "link": "Start chat now"
+      }
+    },
+    "my_it_learning": {
+      "presentation": "Veuillez trouver ici <strong>toutes les informations nécessaires pour un usage optimal des applications et outils IT</strong>.",
+      "title_popular": "Solutions les plus populaires",
+      "title_result": "{{ value }} resultat(s)",
+      "link_solution": "Allez à la solution",
+      "label_categories": "Catégories de Solutions",
+      "label_articles": "Articles",
+      "label_faqs": "FAQ questions",
+      "icon_popular": "Plus Poluaires",
+      "title_target": "Cible",
+      "overviews_title": "Aperçu",
+      "quickly_info": {
+        "most_popular": "Solution la plus populaire",
+        "mobility": "Mobilité ",
+        "cost": "Coût ",
+        "easy_to_use": "Facile à utiliser "
+      },
+      "filter_category": {
+        "solution_categories": "Categories de Solutions "
+      },
+      "filters": {
+        "security": "Securité",
+        "at_the_office": "Au bureau",
+        "administrative_tools": "Outils et applications d'administration",
+        "collaboration": "Collaboration",
+        "messaging": "Messagerie",
+        "remote_connectivity": "connexion distante"
+      }
+    }
+  },
+  "services": {
+    "presentation": "Browse through the <strong>IT store: commander des appareils, des services ou télécharger la plupart des applications directement</strong>, gérer <strong> vos IT Assets et vos consommations</strong>.",
+    "title_home": "Bienvenue dans My Services",
+    "menu": {
+      "myasset": "My Asset",
+      "myassetsteam": "Equipe My Asset"
+    },
+    "it_store": {
+      "title_service": "Services",
+      "title_asset": "Assets",
+      "item_no_result": "{{ type }} non trouvé pour le critère {{ criteria }}",
+      "one_result": "Un résultat",
+      "results": "résultats",
+      "no_result": "Aucun resultat",
+      "most_popular_title": "Plus populair",
+      "see_all": "Voir tout",
+      "see_popular": "Voir les plus populairs",
+      "service_questions": "Questions de Service",
+      "action_questions": "Questions d'Action",
+      "by_year": "par an",
+      "instruction1": "",
+      "ratings_title": "Votes d'utilisateurs",
+      "satisfaction_title": "Satisfaction d'utilisateurs",
+      "nb_ratings_total": "( {{ nb }} votes )",
+      "nb_ratings_total_one": "( 1 vote )",
+      "nb_ratings": "{{ nb }} votes",
+      "nb_ratings_one": "1 vote",
+      "no_ratings": "Aucu vote. Envoyez votre vote !",
+      "star": "étoile",
+      "stars": "étoiles",
+      "rating": "vote",
+      "ratings": "votes",
+      "rating_success": "Merci pour votre vote !",
+      "no_rating_single": "Aucun vote.",
+      "comments_title": "Commentaires utilisateurs",
+      "comment_success": "Merci pour votre commentaire !",
+      "no_comments": "aucun utilisateur n'a laissé de commentaire, soyez le premier !",
+      "related_actions": "Actions similaires",
+      "title_opinion": "Laissez-nous votre opinion",
+      "request_button_application": "<i class=\"fa fa-shopping-cart\"></i> Ajouter cette application",
+      "request_button_action": "<i class=\"fa fa-shopping-cart\"></i> Ajouter cette action",
+      "need_to_request_application": {
+        "is_free": "Cette application est gratuite",
+        "teranga": "Aucun code teranga pour votre Alstom Id."
+      },
+      "modal_request": {
+        "title": "Demande d'application",
+        "quite": "Fermer la demande d'application",
+        "deploy": "Envoyer la demande !",
+        "deploying": "Déploiement en cours, veuillez patienter SVP...",
+        "error": "Une erreur est survenue.",
+        "waiting_approved": "Cette application requiert l'approbation de votre Manager et du niveau 2 pour être installé sur votre ordinateur.<br> Après l'approbation, vous devrez attendre qu'un message s'affiche sur votre écran vous proposant de poursuivre l'installation.<br /><br /> <strong>Attention:</strong> Vous devez impérativement être connecté au réseau Alstom pour que l'installation puisse s'effectuer. Si vous ne vous connectez pas dans les 10 jours, la requête sera annulée. Attention: une fois que la demande d'application est validée par le niveau 2, elle ne peut être annulée.",
+        "waiting_approved_and_deployed": "Cette application requiert l'approbation de votre Manager et du niveau 2 pour être installé sur votre ordinateur.<br /> Après l'approbation, vous devrez attendre jusqu'à 10 jours ouvrés pour qu'un technicien vous contacte et procède à l'installation.<br /><br /> <strong>Attention:</strong> une fois que la demande d'application est validée par le niveau 2, elle ne peut être annulée.",
+        "success_complete": "Vous devrez attendre qu'un message s'affiche sur votre écran vous proposant de poursuivre l'installation.<br /><br /> <strong>Attention:</strong> Vous devez impérativement être connecté au réseau Alstom pour que l'installation puisse s'effectuer. Si vous ne vous connectez pas dans les 10 jours, la requête sera annulée.",
+        "send": "Nous envoyons votre demande...",
+        "label": {
+          "choose_computer_default": "Sélectionnez votre ordinateur",
+          "choose_package": "Choisissez un package",
+          "choose_package_default": "Sélectionnez une langue et une version",
+          "give_a_reason": "Raison (obligatoire)",
+          "version": "Version ",
+          "language": "Langue "
+        }
+      }
+    },
+    "my_asset": {
+      "name": "My Asset",
+      "title_computers": "Ordinateur",
+      "title_mobiles": "Mobiles",
+      "enable": "activé",
+      "disable": "désactivé",
+      "asset_name": "Nom",
+      "serial_number": "Numéro de série",
+      "manufacturer": "Constructeur",
+      "phone_number": "Numéro de téléphone",
+      "no_computers": "Vous n'avez pas d'ordinateur.",
+      "no_mobiles": "Vous n'avez pas de mobile.",
+      "filter_categories": "Catégories Asset",
+      "filters": {
+        "mobile": "Mobile",
+        "computer": "Ordinateur"
+      },
+      "pcoob": {
+        "new": {
+          "configuration": {
+            "message": "Veuillez sélectionner la configuration de votre ordinateur",
+            "form": {
+              "invalid": "Vous devez remplir tous les champs suivants"
+            }
+          },
+          "applications": {
+            "crap": {
+              "name": "Applications non ALSTOM"
+            }
+          },
+          "shipping": {
+            "name": "Site d'envoi",
+            "form": {
+              "invalid": "Vous devez sélectionner un site de réception ci-dessous"
+            }
+          },
+          "messages": {
+            "request": {
+              "success": "Votre demande a été enregistrée et sera traitée dans les prochaines 24 heures."
+            }
+          }
+        },
+        "show": {
+          "name": "Résumé de la demande d'ordinateur"
+        },
+        "request": {
+          "order_status": {
+            "INITIAL": "Validation de la demande d'ordinateur en cours",
+            "ON_DELIVERY": "Ordinateur en cours de livraison",
+            "DELIVERED": "Ordinateur en cours de livraison"
+          },
+          "request_delivery_date": "Date de livraison estimée",
+          "revised_delivery_date": ""
+        }
+      }
+    },
+    "my_assets_team": {
+      "name": "Equipe My Asset",
+      "user": "Utilisateur",
+      "no_team": "Vous n'avez d'équipe.",
+      "no_computers": "{{ user.first_name }} {{ user.last_name}} n'a pas d'ordinateur.",
+      "no_mobiles": "{{ user.first_name }} {{ user.last_name}} n'a pas de mobile."
+    },
+    "e_procurement": {
+      "e_pass": {
+        "title": "ePass Alstom",
+        "description": "Mise en oeuvre d'une solution d'e-acquisition commune pour gérer le processus “Procure-To-Order (“P2O”)“ :<ul><li>pour certaines Indirect Categories</li><li>pour réaliser un maximum d'économies sur les coûts de matériels et de transactions</li><li>pour mener avec conformité un processus central d'acquisition commun.</li></ul>"
+      },
+      "isis_grid": {
+        "title": "ISIS Grid",
+        "description": "--WAIT TEXT ISIS",
+        "restricted": "Restreint aux utilisateurs Grid"
+      }
+    },
+    "my_consumptions": {
+      "bill": {
+        "telephony_title": "Consommations téléphoniques",
+        "lync_title": "Consommations Lync",
+        "national_call": "Appel National",
+        "international_call": "Appel International",
+        "national_data": "Données mobiles utilisées (national)",
+        "international_data": "Données mobiles utilisées (international)",
+        "calls": "appels",
+        "call": "appel",
+        "number_calls": "A participé à l'appel",
+        "duration_call": "Total du temps passé en appel"
+      }
+    },
+    "my_approvals": {
+      "to_do": "A faire",
+      "in_progress": "En cours",
+      "done": "Fait",
+      "no_approvals": {
+        "to_do": "Aucune approbation en attente.",
+        "in_progress": "Aucune approbation en cours.",
+        "done": "Aucune approbation archivée."
+      },
+      "error_message": "Une erreur est survenue.",
+      "success_message": "Cette demande a été mise à jour.",
+      "cancel_error": "Veuillez réessayer.",
+      "details": {
+        "title": "Détails de la demande",
+        "title_card": "Demande de {{ first_name }} {{ last_name }}",
+        "button": {
+          "approve": "Approver cette demande",
+          "reject": "Rejeter cette demande",
+          "cancel": "Annuler cette demande"
+        },
+        "step": {
+          "created": "Demande envoyée",
+          "approver1": "Première validation",
+          "approver2": "Seconde validation",
+          "finished": "Demande terminée"
+        },
+        "name": "Nom de package",
+        "type": "Type de demande",
+        "requester": "Nom du demandeur",
+        "computer": "Ordinateur du demandeur",
+        "request_reason": "Message du demandeur",
+        "approvers": "Approveurs",
+        "creation_date": "Date de création",
+        "request_details": "Détails de la demande",
+        "status": "Statut de la demande"
+      },
+      "status_done": {
+        "approve": "Terminé"
+      }
+    }
+  },
+  "home": {
+    "name": "Tout votre IT en un clic ",
+    "myAccounts": {
+      "presentation": "<strong>Gérer</strong> votre <strong>profil</strong> et vos <strong>équipes</strong>."
+    },
+    "myServices": {
+      "presentation": "Parcourir l'<strong>IT store: commander des appareils, des services ou télécharger la plupart des applications directement</strong>, gérer vos <strong>IT Assets et consommations</strong>."
+    },
+    "alstomOrganization": {
+      "name": "Organisation d'Alstom",
+      "presentation": "<strong>Recherchez rapidement un collègue dans le répertoire d'Alstom</strong> et naviguer dans la charte organisationnelle d'Alstom."
+    },
+    "news": {
+      "name": "Yammer News"
+    },
+    "links": {
+      "yammer": "Yammer",
+      "alstom": "Alstom",
+      "university": "Alstom University"
+    }
+  },
+  "authentication": {
+    "smartcard_title": "SmartCard SESAM",
+    "otp_title": "OTP",
+    "cad_accound_title": "Compte CAD",
+    "password_title": "Authentification du compte CAD",
+    "password_description": "Authentifiez-vous avec votre compte CAD",
+    "sign_in": "Se connecter",
+    "log_out": "Se déconnecter",
+    "password": {
+      "login": "Alstom ID",
+      "pass": "Mot de passe CAD"
+    },
+    "otp": {
+      "login": "DOMX\\Alstom ID",
+      "ad_password": "Mot de passe AD",
+      "otp_password": "Mot de passe OTP"
+    },
+    "in_progress": "Authentification ..."
+  },
+  "search": {
+    "history": "Historique",
+    "results": "résultats",
+    "one_result": "un résultat",
+    "clear": "Tout effacer",
+    "name": "Recherche globale",
+    "result": "Résultat de la recherche",
+    "no_result": "Aucun résultat pour le critère \"{{ criteria }}\"",
+    "waiting": " - Merci de patienter pendant la recherche",
+    "indication": {
+      "title": "Indication de la recherche globale",
+      "people": {
+        "title": "Personne",
+        "find": "Trouver une personne"
+      },
+      "alstom_world": {
+        "find": "Trouver un site"
+      },
+      "it_store": {
+        "assets": "Assets",
+        "services": "Services"
+      },
+      "it_learning": {
+        "title": "IT Learning",
+        "solutions": "Solutions"
+      }
+    },
+    "filter": {
+      "subcategories": {
+        "IT_LEARNING": "IT Learning",
+        "PEOPLE": "Personnes"
+      }
+    },
+    "filter_category": {
+      "person": "Personne",
+      "service": "Services",
+      "asset": "Assets",
+      "site": "Sites",
+      "it_learning": "IT Learning"
+    }
+  },
+  "version": {
+    "modal": {
+      "title": "Versions déployées",
+      "backend": "Backend modules",
+      "frontend": "Frontend modules",
+      "module_down": "Module inaccessible"
+    }
+  }
+}

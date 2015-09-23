@@ -1,0 +1,18 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "generate translation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "allel benbrahim",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "fast-csv": "^0.6.0",
+    "jsonfile": "^2.2.2",
+    "lodash-node": "^3.10.1",
+    "yargs": "^3.25.0"
+  }
+}
